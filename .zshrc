@@ -70,7 +70,15 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(
+    git
+    dotenv
+    aws
+    docker
+    python
+    poetry
+    pip
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -100,18 +108,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias g="git"
+alias gs="g status"
 alias work="cd ~/Workspace"
 alias d="docker"
-alias dps="docker ps"
-alias firefox="open -a /Applications/Firefox.app"
-alias zoho="firefox https://mail.zoho.com"
-alias gmail="firefox https://gmail.com"
-alias hotmail="firefox https://hotmail.com"
-alias basecamp="open -a /Applications/Basecamp\ 3.app"
-alias linear="open -a /Applications/Linear.app"
-alias discord="open -a /Applications/Discord.app"
-alias slack="open -a /Applications/Slack.app"
-alias pycharm="open -a /Applications/PyCharm.app"
-alias datagrip="open -a /Applications/DataGrip.app"
-alias spotify="open -a /Applications/Spotify.app"
-alias telegram="open -a /Applications/Telegram.app"
+alias dps="d ps"
+alias senv="source env/bin/activate"
