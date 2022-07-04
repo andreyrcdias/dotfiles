@@ -122,9 +122,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias g="git"
-alias gs="g status"
-alias work="cd ~/Workspace"
-alias d="docker"
-alias dps="d ps"
-alias svenv="source .venv/bin/activate"
