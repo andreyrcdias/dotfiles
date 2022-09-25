@@ -1,8 +1,10 @@
 {
+    "python.terminal.activateEnvironment": true,
     "editor.mouseWheelZoom": true,
     "files.exclude": {
         "**/__pycache__": true,
         "**/.pytest_cache": true,
-        "**/.mypy_cache": true
+        "**/.mypy_cache": true,
+        "**/.ipynb_checkpoints": true,
     }
 }
