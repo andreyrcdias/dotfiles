@@ -12,5 +12,5 @@ set wrap
 set encoding=utf-8
 set tabstop=4
 set softtabstop=4
-nnoremap pt :!python %
-nnoremap pit :!python -i %
+set incsearch
+set nohlsearch
