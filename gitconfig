@@ -13,6 +13,9 @@
 	dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
 	whoami = config user.email
 
+[core]
+        editor = vim
+
 [branch]
 	sort = -committerdate
 
