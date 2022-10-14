@@ -19,5 +19,5 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 
 let g:NERDTreeDirArrowExpandable="*"
 let g:NERDTreeDirArrowCollapsable="~"
-let NERDTreeIgnore = ['\.pyc$','__pycache__$[[dir]]','.pytest_cache$[[dir]]','.mypy_cache$[[dir]]','.ipynb_checkpoints$[[dir]]']
+let g:NERDTreeIgnore = ['^.pyc$','^__pycache__$[[dir]]','^.pytest_cache$[[dir]]','^.mypy_cache$[[dir]]','^.ipynb_checkpoints$[[dir]]']
 
