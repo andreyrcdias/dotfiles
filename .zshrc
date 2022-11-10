@@ -122,3 +122,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias uuid="python -c 'from uuid import uuid4; print(str(uuid4()))'"
+alias xuuid="uuid | xclip -sel c"
