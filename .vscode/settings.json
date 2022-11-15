@@ -5,5 +5,6 @@
         "**/.pytest_cache": true,
         "**/.mypy_cache": true,
         "**/.ipynb_checkpoints": true
-    }
+    },
+    "vim.useCtrlKeys": true
 }
