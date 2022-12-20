@@ -1,0 +1,14 @@
+wget
+tmux
+telnet
+curl
+gcc
+node
+git
+vim
+neovim
+python3-neovim
+zsh
+xclip
+bat
+
