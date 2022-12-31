@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/andreyrcdias/.local/share/nvim/site/pack/packer/start/github-nvim-theme",
     url = "https://github.com/projekt0n/github-nvim-theme"
   },
+  harpoon = {
+    loaded = true,
+    path = "/home/andreyrcdias/.local/share/nvim/site/pack/packer/start/harpoon",
+    url = "https://github.com/theprimeagen/harpoon"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/andreyrcdias/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
@@ -104,10 +109,10 @@ _G.packer_plugins = {
     path = "/home/andreyrcdias/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
-  ["vim-fugitive"] = {
+  undotree = {
     loaded = true,
-    path = "/home/andreyrcdias/.local/share/nvim/site/pack/packer/start/vim-fugitive",
-    url = "https://github.com/tpope/vim-fugitive"
+    path = "/home/andreyrcdias/.local/share/nvim/site/pack/packer/start/undotree",
+    url = "https://github.com/mbbill/undotree"
   }
 }
 
