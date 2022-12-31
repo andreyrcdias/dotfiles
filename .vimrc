@@ -20,7 +20,7 @@ set nobackup
 set showmode
 set wildmenu
 set wildmode=list:longest,list:full
-let mapleader = ","
+let mapleader = " "
 nmap <leader>w :w!<cr>
 nmap <leader>q :q<cr>
 
