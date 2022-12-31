@@ -7,16 +7,13 @@ return require('packer').startup(function(use)
 	    -- or                            , branch = '0.1.x',
 	    requires = { {'nvim-lua/plenary.nvim'} }
     }
-
-    use({ 'projekt0n/github-nvim-theme' })
-
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+
     use('nvim-treesitter/playground')
 
     use('theprimeagen/harpoon')
 
     use('mbbill/undotree')
-
     use {
         'VonHeikemen/lsp-zero.nvim',
         requires = {
@@ -38,5 +35,8 @@ return require('packer').startup(function(use)
             {'rafamadriz/friendly-snippets'},
         }
     }
+
+    -- Themes
+    use 'Mofiqul/vscode.nvim'
 end)
 

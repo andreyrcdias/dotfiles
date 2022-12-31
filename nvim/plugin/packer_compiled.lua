@@ -109,11 +109,6 @@ _G.packer_plugins = {
     path = "/home/andreyrcdias/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
-  ["github-nvim-theme"] = {
-    loaded = true,
-    path = "/home/andreyrcdias/.local/share/nvim/site/pack/packer/start/github-nvim-theme",
-    url = "https://github.com/projekt0n/github-nvim-theme"
-  },
   harpoon = {
     loaded = true,
     path = "/home/andreyrcdias/.local/share/nvim/site/pack/packer/start/harpoon",
@@ -173,6 +168,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/andreyrcdias/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
+  },
+  ["vscode.nvim"] = {
+    loaded = true,
+    path = "/home/andreyrcdias/.local/share/nvim/site/pack/packer/start/vscode.nvim",
+    url = "https://github.com/Mofiqul/vscode.nvim"
   }
 }
 
