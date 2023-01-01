@@ -1,6 +1,7 @@
 {
     "editor.mouseWheelZoom": true,
     "editor.fontFamily": "'Iosevka','Droid Sans Mono', 'monospace', monospace",
+    "debug.console.fontFamily": "Iosevka",
     "files.exclude": {
         "**/__pycache__": true,
         "**/.pytest_cache": true,
@@ -10,10 +11,11 @@
     "vim.vimrc.enable": true,
     "vim.leader": " ",
     "vim.useCtrlKeys": true,
-    "vim.showcmd": false,
+    "vim.showcmd": true,
     "vim.smartRelativeLine": true,
     "vim.highlightedyank.enable": true,
-    "vim.changeWordIncludesWhitespace": true,
-    "vim.enableNeovim": false,
-    "vim.neovimUseConfigFile": false
+    "vim.hlsearch": true,
+    "vim.vimrc.path": "~/.vimrc",
+    "vim.cursorStylePerMode.insert": "block",
+    "vim.cursorStylePerMode.visual": "block",
 }
