@@ -18,5 +18,5 @@
     "vim.hlsearch": true,
     "vim.vimrc.path": "~/.vimrc",
     "vim.cursorStylePerMode.insert": "block",
-    "vim.cursorStylePerMode.visual": "block",
+    "vim.cursorStylePerMode.visual": "block"
 }
