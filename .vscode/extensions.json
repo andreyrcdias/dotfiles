@@ -13,6 +13,7 @@
         "ms-azuretools.vscode-docker",
         "amazonwebservices.aws-toolkit-vscode",
         "haskell.haskell",
+        "rust-lang.rust-analyzer",
         "lextudio.restructuredtext",
         "znck.grammarly"
     ]
