@@ -1,6 +1,6 @@
 [user]
-    email = andreycadimaa@gmail.com
-    name = andreyrcdias
+	email = andreycadimaa@gmail.com
+	name = andreyrcdias
 
 [alias]
 	aliases = config --get-regexp alias
