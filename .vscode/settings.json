@@ -6,7 +6,8 @@
         "**/__pycache__": true,
         "**/.pytest_cache": true,
         "**/.mypy_cache": true,
-        "**/.ipynb_checkpoints": true
+        "**/.ipynb_checkpoints": true,
+        "**/.ruff_cache": true
     },
     "vim.vimrc.enable": true,
     "vim.leader": " ",
