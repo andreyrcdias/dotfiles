@@ -7,3 +7,9 @@ require("vscode").setup({
 
 require("gitsigns").setup()
 
+require("lualine").setup{
+    options = {
+        icons_enabled = false,
+    }
+}
+
