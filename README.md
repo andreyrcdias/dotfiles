@@ -1,8 +1,5 @@
 # dotfiles
 
-## requirements
-* [nvim ^v0.7](github.com/neovim/neovim)
-
 ## Fonts
 * [iosevka](https://github.com/be5invis/Iosevka)
 * [victor-mono](https://github.com/rubjo/victor-mono)
