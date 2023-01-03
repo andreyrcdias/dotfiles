@@ -18,6 +18,7 @@ set nobackup
 set undofile
 set hlsearch
 set incsearch
+set ignorecase
 set showmode
 set wildmenu
 set wildmode=list:longest,list:full
