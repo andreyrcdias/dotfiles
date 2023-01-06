@@ -1,7 +1,7 @@
 require("arcd")
 
 require("vscode").setup({
-    transparent = true,
+    transparent = false,
     disable_nvimtree_bg = true,
 })
 
