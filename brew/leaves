@@ -5,6 +5,7 @@ curl
 gcc
 git
 htop
+httpie
 luarocks
 neovim
 node
