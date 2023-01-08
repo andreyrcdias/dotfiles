@@ -1,0 +1,17 @@
+aws/tap/aws-sam-cli
+bat
+cmake
+curl
+gcc
+git
+htop
+luarocks
+neovim
+node
+pgcli
+poetry
+pyenv
+telnet
+tmux
+vim
+wget
