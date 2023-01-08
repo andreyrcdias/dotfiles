@@ -27,6 +27,7 @@ let mapleader = " "
 nmap <leader>w :w!<cr>
 nmap <leader>q :q<cr>
 nmap <leader>r :so ~/.vimrc<cr>
+nmap <leader>pv :Ex<cr>
 nnoremap K :m .-2<CR>==
 inoremap J <Esc>:m .+1<CR>==gi
 inoremap K <Esc>:m .-2<CR>==gi
