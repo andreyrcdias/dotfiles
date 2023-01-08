@@ -10,3 +10,17 @@ To change main editor in Ubuntu, Arch
 update-alternatives --config editor
 ```
 
+## New(ish) CLI tools
+
+### Standard tools
+* [bat](https://github.com/sharkdp/bat)
+* [pgcli](https://github.com/dbcli/pgcli)
+* [httpie](https://github.com/httpie/httpie)
+* [delta](https://github.com/dandavison/delta)
+
+### Grep things
+* [ripgrep-all](https://github/phiresky/ripgrep-all) 
+
+### File things
+* [jo](https://github.com/jpmens/jo)
+
