@@ -19,7 +19,7 @@ update-alternatives --config editor
 * [delta](https://github.com/dandavison/delta)
 
 ### Grep things
-* [ripgrep-all](https://github/phiresky/ripgrep-all) 
+* [ripgrep-all](https://github.com/phiresky/ripgrep-all)
 
 ### File things
 * [jo](https://github.com/jpmens/jo)
