@@ -14,5 +14,6 @@ poetry
 pyenv
 telnet
 tmux
+tree
 vim
 wget
