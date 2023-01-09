@@ -1,7 +1,3 @@
-[user]
-	email = andreycadimaa@gmail.com
-	name = andreyrcdias
-
 [alias]
 	aliases = config --get-regexp alias
 	s = status -s
