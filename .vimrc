@@ -23,6 +23,7 @@ set showmode
 set wildmenu
 set wildmode=list:longest,list:full
 set ffs=unix,mac
+set backspace=indent,eol,start
 let mapleader = " "
 nmap <leader>w :w!<cr>
 nmap <leader>q :q<cr>
