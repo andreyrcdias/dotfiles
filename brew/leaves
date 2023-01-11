@@ -1,3 +1,4 @@
+act
 aws/tap/aws-sam-cli
 bat
 cmake
@@ -6,7 +7,9 @@ gcc
 git
 htop
 httpie
+hyperfine
 luarocks
+mongodb/brew/mongodb-community
 neovim
 node
 pgcli
