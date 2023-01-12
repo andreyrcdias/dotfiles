@@ -10,7 +10,7 @@
         "**/.ruff_cache": true
     },
     "vim.vimrc.enable": true,
-    "vim.leader": " ",
+    "vim.leader": "<space>",
     "vim.useCtrlKeys": true,
     "vim.showcmd": true,
     "vim.smartRelativeLine": true,
