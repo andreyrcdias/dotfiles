@@ -18,5 +18,8 @@
     "vim.hlsearch": true,
     "vim.vimrc.path": "~/.vimrc",
     "vim.cursorStylePerMode.insert": "block",
-    "vim.cursorStylePerMode.visual": "block"
+    "vim.cursorStylePerMode.visual": "block",
+    "vim.enableNeovim": true,
+    "vim.neovimUseConfigFile": true,
+    "vim.neovimConfigPath": "~/.config/nvim/init.lua",
 }
