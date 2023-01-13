@@ -4,7 +4,6 @@ syntax on
 filetype plugin on
 filetype indent on
 set guicursor=""
-set termguicolors
 set nu
 set relativenumber
 set tabstop=4
@@ -12,7 +11,6 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 set smartcase
-set smartindent
 set nowrap
 set noswapfile
 set nobackup
@@ -27,6 +25,7 @@ set wildmenu
 set wildmode=list:longest,list:full
 set ffs=unix,mac
 let mapleader = " "
+highlight Comment ctermfg=green
 nmap <leader>w :w!<cr>
 nmap <leader>q :q<cr>
 nmap <leader>r :so ~/.vimrc<cr>
