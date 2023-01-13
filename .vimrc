@@ -1,9 +1,10 @@
 set nocompatible
 filetype on
+syntax on
 filetype plugin on
 filetype indent on
-syntax on
 set guicursor=""
+set termguicolors
 set nu
 set relativenumber
 set tabstop=4
@@ -12,18 +13,19 @@ set shiftwidth=4
 set expandtab
 set smartcase
 set smartindent
-set wrap
+set nowrap
 set noswapfile
 set nobackup
+set noundofile
 set undofile
 set hlsearch
 set incsearch
 set ignorecase
 set showmode
+set backspace=indent,eol,start
 set wildmenu
 set wildmode=list:longest,list:full
 set ffs=unix,mac
-set backspace=indent,eol,start
 let mapleader = " "
 nmap <leader>w :w!<cr>
 nmap <leader>q :q<cr>
