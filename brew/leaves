@@ -5,6 +5,7 @@ cmake
 curl
 gcc
 git
+haskell-language-server
 htop
 httpie
 hyperfine
