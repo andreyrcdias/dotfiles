@@ -16,6 +16,7 @@ node
 pgcli
 poetry
 pyenv
+sloccount
 telnet
 tmux
 tree
