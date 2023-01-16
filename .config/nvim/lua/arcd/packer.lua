@@ -44,7 +44,6 @@ return require('packer').startup(function(use)
             {'rafamadriz/friendly-snippets'},
         }
     }
-
     -- Themes
     use 'Mofiqul/vscode.nvim'
 end)

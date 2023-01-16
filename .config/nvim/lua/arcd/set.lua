@@ -18,6 +18,7 @@ vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
 vim.opt.updatetime = 50
 vim.opt.ignorecase = true
-
+vim.opt.cmdheight = 0
+vim.o.guibg = "NONE"
 vim.g.mapleader = " "
 
