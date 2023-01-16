@@ -24,8 +24,11 @@ set backspace=indent,eol,start
 set wildmenu
 set wildmode=list:longest,list:full
 set ffs=unix,mac
-let mapleader = " "
+set list
+set listchars=trail:·
+colorscheme default
 highlight Comment ctermfg=green
+let mapleader = " "
 nmap <leader>w :w!<cr>
 nmap <leader>q :q<cr>
 nmap <leader>r :so ~/.vimrc<cr>
@@ -40,4 +43,3 @@ map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 nmap <C-n> :nohl<cr>
-
