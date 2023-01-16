@@ -17,7 +17,7 @@ return require('packer').startup(function(use)
 
     use('tpope/vim-fugitive')
 
-    use('nvim-lualine/lualine.nvim')
+    --use('nvim-lualine/lualine.nvim')
 
     use('lewis6991/gitsigns.nvim')
 
