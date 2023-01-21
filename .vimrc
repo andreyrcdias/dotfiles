@@ -6,7 +6,7 @@ filetype indent on
 set guicursor=""
 set nu
 set relativenumber
-# for python dev
+" for python dev
 set textwidth=79
 set shiftwidth=4
 set tabstop=4
