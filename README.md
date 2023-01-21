@@ -3,6 +3,7 @@
 ## Fonts
 * [iosevka](https://github.com/be5invis/Iosevka)
 * [victor-mono](https://github.com/rubjo/victor-mono)
+* [powerline](https://github.com/powerline/powerline)
 
 ## Extra
 To change main editor in Ubuntu, Arch
