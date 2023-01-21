@@ -1,25 +1,24 @@
 {
-    "editor.mouseWheelZoom": true,
-    "editor.fontFamily": "'Iosevka','Droid Sans Mono', 'monospace', monospace",
-    "debug.console.fontFamily": "Iosevka",
-    "files.exclude": {
-        "**/__pycache__": true,
-        "**/.pytest_cache": true,
-        "**/.mypy_cache": true,
-        "**/.ipynb_checkpoints": true,
-        "**/.ruff_cache": true
-    },
-    "vim.vimrc.enable": true,
-    "vim.leader": "<space>",
-    "vim.useCtrlKeys": true,
-    "vim.showcmd": true,
-    "vim.smartRelativeLine": true,
-    "vim.highlightedyank.enable": true,
-    "vim.hlsearch": true,
-    "vim.vimrc.path": "~/.vimrc",
-    "vim.cursorStylePerMode.insert": "block",
-    "vim.cursorStylePerMode.visual": "block",
-    "vim.enableNeovim": true,
-    "vim.neovimUseConfigFile": true,
-    "vim.neovimConfigPath": "~/.config/nvim/init.lua",
+  "editor.mouseWheelZoom": true,
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "**/.mypy_cache": true,
+    "**/.ipynb_checkpoints": true,
+    "**/.ruff_cache": true
+  },
+  "vim.vimrc.enable": true,
+  "vim.leader": "<space>",
+  "vim.useCtrlKeys": true,
+  "vim.showcmd": true,
+  "vim.smartRelativeLine": true,
+  "vim.highlightedyank.enable": true,
+  "vim.hlsearch": true,
+  "vim.vimrc.path": "~/.vimrc",
+  "vim.cursorStylePerMode.insert": "block",
+  "vim.cursorStylePerMode.visual": "block",
+  "vim.enableNeovim": true,
+  "vim.neovimUseConfigFile": true,
+  "vim.neovimConfigPath": "~/.config/nvim/init.lua"
 }
+
