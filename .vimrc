@@ -6,10 +6,14 @@ filetype indent on
 set guicursor=""
 set nu
 set relativenumber
-set tabstop=4
-set softtabstop=4
+# for python dev
+set textwidth=79
 set shiftwidth=4
+set tabstop=4
 set expandtab
+set softtabstop=4
+set shiftround
+set autoindent
 set smartcase
 set nowrap
 set noswapfile
