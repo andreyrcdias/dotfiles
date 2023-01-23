@@ -3,6 +3,7 @@ aws/tap/aws-sam-cli
 bat
 cmake
 curl
+elixir
 gcc
 git
 haskell-language-server
