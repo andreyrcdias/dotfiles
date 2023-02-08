@@ -12,11 +12,13 @@ httpie
 hyperfine
 luarocks
 mongodb/brew/mongodb-community
+neofetch
 neovim
 node
 pgcli
 poetry
 pyenv
+scc
 sloccount
 telnet
 tmux
