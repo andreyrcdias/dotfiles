@@ -23,5 +23,6 @@ vim.opt.signcolumn = "yes"
 vim.opt.updatetime = 50
 vim.opt.ignorecase = true
 vim.opt.cmdheight = 0
+vim.opt.foldmethod = "expr"
+vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
 vim.g.mapleader = " "
-
