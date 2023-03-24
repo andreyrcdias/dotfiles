@@ -2,7 +2,7 @@ require("arcd.remap")
 require("arcd.set")
 
 local augroup = vim.api.nvim_create_augroup
-local arcd = augroup('ThePrimeagen', {})
+local arcd = augroup('arcd', {})
 
 local autocmd = vim.api.nvim_create_autocmd
 local yank_group = augroup('HighlightYank', {})
