@@ -4,6 +4,7 @@
 * [iosevka](https://github.com/be5invis/Iosevka)
 * [victor-mono](https://github.com/rubjo/victor-mono)
 * [powerline](https://github.com/powerline/powerline)
+* [SF Mono Nerd](https://github.com/epk/SF-Mono-Nerd-Font)
 
 ## Extra
 To change main editor in Ubuntu, Arch
