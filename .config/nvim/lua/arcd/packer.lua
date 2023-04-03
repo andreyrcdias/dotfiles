@@ -33,7 +33,6 @@ return require('packer').startup(function(use)
             {'rafamadriz/friendly-snippets'},
         }
     }
-    -- Themes
-    use 'Mofiqul/vscode.nvim'
+    use {'morhetz/gruvbox', config = function() vim.cmd.colorscheme("gruvbox") end }
 end)
 
