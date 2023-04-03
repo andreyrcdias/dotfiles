@@ -5,6 +5,7 @@ cloc
 cmake
 curl
 elixir
+emacs
 ffmpeg
 gcc
 ghc
@@ -31,4 +32,3 @@ tmux
 tree
 vim
 wget
-
