@@ -5,6 +5,7 @@
 * [victor-mono](https://github.com/rubjo/victor-mono)
 * [powerline](https://github.com/powerline/powerline)
 * [SF Mono Nerd](https://github.com/epk/SF-Mono-Nerd-Font)
+* [roboto mono](https://fonts.google.com/specimen/Roboto+Mono)
 
 ## Extra
 To change main editor in Ubuntu, Arch
