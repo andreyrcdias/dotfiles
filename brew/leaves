@@ -1,6 +1,6 @@
+asciinema
 aws/tap/aws-sam-cli
 bat
-charm
 cloc
 cmake
 curl
@@ -10,11 +10,11 @@ ffmpeg
 gcc
 ghc
 git
+gnupg
 haskell-language-server
 htop
 httpie
 hyperfine
-imagemagick
 ipython
 jq
 luarocks
@@ -23,6 +23,7 @@ neovim
 node
 pgcli
 poetry
+portaudio
 postgresql@14
 pyenv
 scc
