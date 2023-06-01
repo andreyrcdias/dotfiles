@@ -1,0 +1,9 @@
+# Operating system
+.DS_Store
+
+# Editor
+.idea/
+
+# CPython
+*.pyc
+__pycache__
