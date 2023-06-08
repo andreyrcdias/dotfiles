@@ -17,7 +17,7 @@ if [ -e "$TO" ]; then
     # Already linked; ignore
     exit 0
   else
-    echo "$TO already exists; ignoring" > &2
+    echo "$TO already exists; ignoring" >&2
     exit 0
   fi
 fi
