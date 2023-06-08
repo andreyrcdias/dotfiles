@@ -19,11 +19,14 @@ projects=(
   tmux
   vim
   zsh
+  alacritty
 )
 
 if [ $(uname -s) == "Darwin" ]; then
   projects+=("macos")
   projects+=("brew")
+  # TODO
+  # projects+=("yabai")
 fi
 
 echo "Symlinking files..."
