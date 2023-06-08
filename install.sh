@@ -22,6 +22,7 @@ projects=(
 )
 
 if [ $(uname -s) == "Darwin" ]; then
+  projects+=("macos")
   projects+=("brew")
 fi
 
