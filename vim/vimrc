@@ -1,7 +1,15 @@
 syntax on
+filetype plugin indent on
 set nobackup
 set noswapfile
 set relativenumber
 set autoindent
 set title
+set tabstop=4
+set shiftwidth=4
+set expandtab
 set autoread
+set smartcase
+set ignorecase
+set incsearch
+
