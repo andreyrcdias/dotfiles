@@ -913,3 +913,4 @@ vim.api.nvim_set_hl(0, "FloatBorder", {
   bg = "NONE",
   fg = "NONE"
 })
+--vim.api.nvim_command("autocmd VimResized * wincmd =")
