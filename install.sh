@@ -27,7 +27,12 @@ if [ $(uname -s) == "Darwin" ]; then
   projects+=("brew")
   # TODO
   # projects+=("yabai")
+else
+  echo "Installing aptitude packages..."
+  HEREP="$HERE/apt"
+  . "$HEREP/install.sh"
 fi
+
 
 echo "Symlinking files..."
 S="$HERE/symlink.sh"

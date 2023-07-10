@@ -1,0 +1,9 @@
+curl
+git
+vim
+net-tools
+htop
+zsh
+bat
+openssh-server
+
