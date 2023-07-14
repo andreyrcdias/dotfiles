@@ -6,4 +6,5 @@ htop
 zsh
 bat
 openssh-server
+xclip
 
