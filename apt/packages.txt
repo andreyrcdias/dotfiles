@@ -7,4 +7,5 @@ zsh
 bat
 openssh-server
 xclip
+openssl
 
