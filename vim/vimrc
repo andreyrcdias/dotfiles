@@ -2,6 +2,7 @@ syntax on
 filetype plugin indent on
 set nobackup
 set noswapfile
+set noundofile
 set nu
 set relativenumber
 set autoindent
