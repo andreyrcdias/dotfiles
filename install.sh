@@ -13,7 +13,7 @@ OUT="$1"
 cd "$HERE"
 
 projects=(
-  bash
+  bashrc
   git
   nvim
   tmux
