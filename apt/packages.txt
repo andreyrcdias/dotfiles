@@ -9,3 +9,4 @@ tree
 zsh
 openssh-server
 openssl
+i3

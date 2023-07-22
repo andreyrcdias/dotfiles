@@ -28,6 +28,7 @@ if [ $(uname -s) == "Darwin" ]; then
   # TODO
   # projects+=("yabai")
 else
+  projects+=("i3")
   echo "Installing aptitude packages..."
   HEREP="$HERE/apt"
   . "$HEREP/install.sh"
