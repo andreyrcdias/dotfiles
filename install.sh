@@ -25,8 +25,6 @@ projects=(
 if [ $(uname -s) == "Darwin" ]; then
   projects+=("macos")
   projects+=("brew")
-  # TODO
-  # projects+=("yabai")
 else
   projects+=("i3")
   echo "Installing aptitude packages..."
