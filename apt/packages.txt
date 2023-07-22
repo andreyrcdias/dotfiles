@@ -3,9 +3,9 @@ git
 vim
 net-tools
 htop
-zsh
 bat
-openssh-server
 xclip
+tree
+zsh
+openssh-server
 openssl
-
