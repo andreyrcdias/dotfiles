@@ -25,8 +25,6 @@ let mapleader = " "
 map <leader>pv :Ex<cr>
 map <leader>tn :tabnew<cr>
 map <leader>tc :tabclose<cr>
-map <leader>tm :tabmove<cr>
-map <leader>t<leader> :tabnext
 map <leader>ss :split<cr>
 map <leader>vs :vsplit<cr>
 
