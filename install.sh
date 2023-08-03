@@ -19,7 +19,6 @@ projects=(
   tmux
   vim
   zsh
-  alacritty
 )
 
 if [ $(uname -s) == "Darwin" ]; then
