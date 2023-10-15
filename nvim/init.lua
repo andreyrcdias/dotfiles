@@ -289,6 +289,9 @@ vim.o.completeopt = 'menuone,noselect'
 -- NOTE: You should make sure your terminal supports this
 vim.o.termguicolors = true
 
+-- Set GUI cursor bold (same as normal mode)
+vim.o.guicursor = ''
+
 -- Set scroll off
 vim.o.so = 8
 
@@ -303,6 +306,7 @@ vim.keymap.set('n', 'k', "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = tr
 vim.keymap.set('n', 'j', "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = true })
 vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv")
 vim.keymap.set('v', 'K', ":m '<-2<CR>gv=gv")
+vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
 
 -- [[ Highlight on yank ]]
 -- See `:help vim.highlight.on_yank()`
