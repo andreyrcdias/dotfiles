@@ -150,14 +150,30 @@ require('lazy').setup({
     },
   },
 
+  -- Themes
   {
-    -- Theme inspired by Atom
-    'navarasu/onedark.nvim',
+    'ellisonleao/gruvbox.nvim',
     priority = 1000,
     config = function()
-      vim.cmd.colorscheme 'onedark'
+      vim.cmd.colorscheme 'gruvbox'
     end,
   },
+  --[[
+  {
+    'thimc/gruber-darker-nvim',
+    priority = 1000,
+    config = function()
+      vim.cmd.colorscheme 'gruber-darker'
+    end,
+  },
+  {
+    'rebelot/kanagawa.nvim',
+    priority = 1000,
+    config = function()
+      vim.cmd.colorscheme 'kanagawa'
+    end,
+  },
+  --]]
 
   {
     -- Set lualine as statusline
@@ -285,6 +301,8 @@ vim.keymap.set({ 'n', 'v' }, '<Space>', '<Nop>', { silent = true })
 -- Remap for dealing with word wrap
 vim.keymap.set('n', 'k', "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = true })
 vim.keymap.set('n', 'j', "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = true })
+vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv")
+vim.keymap.set('v', 'K', ":m '<-2<CR>gv=gv")
 
 -- [[ Highlight on yank ]]
 -- See `:help vim.highlight.on_yank()`
