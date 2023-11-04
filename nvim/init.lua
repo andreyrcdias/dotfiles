@@ -152,28 +152,12 @@ require('lazy').setup({
 
   -- Themes
   {
-    'ellisonleao/gruvbox.nvim',
-    priority = 1000,
-    config = function()
-      vim.cmd.colorscheme 'gruvbox'
-    end,
-  },
-  --[[
-  {
-    'thimc/gruber-darker-nvim',
+    'blazkowolf/gruber-darker.nvim',
     priority = 1000,
     config = function()
       vim.cmd.colorscheme 'gruber-darker'
     end,
   },
-  {
-    'rebelot/kanagawa.nvim',
-    priority = 1000,
-    config = function()
-      vim.cmd.colorscheme 'kanagawa'
-    end,
-  },
-  --]]
 
   {
     -- Set lualine as statusline
