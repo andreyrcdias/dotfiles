@@ -1,3 +1,5 @@
+export EDITOR="nvim"
+
 alias ll="ls -l"
 alias lla="ls -la"
 alias mypip="curl ipinfo.io/ip"
