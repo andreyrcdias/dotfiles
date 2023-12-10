@@ -4,6 +4,7 @@ vim
 net-tools
 htop
 bat
+xsel
 xclip
 tree
 zsh

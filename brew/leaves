@@ -10,3 +10,4 @@ vim
 wget
 gcc
 feh
+reattach-to-user-namespace
