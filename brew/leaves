@@ -11,3 +11,4 @@ wget
 gcc
 feh
 reattach-to-user-namespace
+youtube-dl
