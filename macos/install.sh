@@ -16,9 +16,9 @@ defaults write com.apple.controlcenter "NSStatusItem Visible Sound" -bool true
 defaults write com.apple.controlcenter "NSStatusItem Visible Battery" -bool true
 
 # Vim + VScode
+defaults delete -g ApplePressAndHoldEnabled
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false
-defaults write com.vscodium ApplePressAndHoldEnabled -bool false
 defaults write com.microsoft.VSCodeExploration ApplePressAndHoldEnabled -bool false
-defaults delete -g ApplePressAndHoldEnabled
+defaults write com.vscodium ApplePressAndHoldEnabled -bool false
 
