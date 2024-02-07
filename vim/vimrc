@@ -22,6 +22,7 @@ set nobackup
 set noswapfile
 
 let mapleader = " "
+map <leader>rv :e! ~/.vimrc<cr>
 map <leader>pv :Ex<cr>
 map <leader>tn :tabnew<cr>
 map <leader>tc :tabclose<cr>
