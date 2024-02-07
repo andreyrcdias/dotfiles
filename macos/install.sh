@@ -15,6 +15,9 @@ defaults write com.apple.dock mineffect -string "genie"
 defaults write com.apple.controlcenter "NSStatusItem Visible Sound" -bool true
 defaults write com.apple.controlcenter "NSStatusItem Visible Battery" -bool true
 
+defaults write -g KeyRepeat -int 1
+defaults write -g InitialKeyRepeat -int 10
+
 # Vim + VScode
 defaults delete -g ApplePressAndHoldEnabled
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
