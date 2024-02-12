@@ -1,4 +1,5 @@
 bat
+btop
 git
 zsh
 neovim
@@ -11,5 +12,5 @@ wget
 gcc
 feh
 reattach-to-user-namespace
-youtube-dl
+jq
 gdb
