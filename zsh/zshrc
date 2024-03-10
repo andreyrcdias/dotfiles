@@ -2,7 +2,7 @@ export EDITOR="nvim"
 
 alias ll="ls -l"
 alias lla="ls -la"
-alias mypip="curl ipinfo.io/ip"
+alias myip="curl ipinfo.io/ip"
 alias g="git"
 alias k9="kill -9"
 alias chex="chmod +x"
