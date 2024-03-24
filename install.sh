@@ -23,7 +23,7 @@ projects=(
 
 if [ $(uname -s) == "Darwin" ]; then
   echo "Installing MacOS apps.."
-  projects+=("macos")
+  projects+=("macosx")
   projects+=("brew")
 else
   projects+=("i3")
