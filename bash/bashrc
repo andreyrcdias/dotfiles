@@ -1,3 +1,6 @@
+export CLICOLOR=1
+export EDITOR="nvim"
+
 alias ll="ls -l"
 alias lla="ls -la"
 alias myip="curl ipinfo.io/ip"
