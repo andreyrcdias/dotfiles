@@ -1,4 +1,6 @@
 #!/bin/bash
 
 "$S" "$HEREP/zshrc" "$OUT/.zshrc"
-# TODO: install plugins
+
+# Plugins
+# brew install zsh-syntax-highlighting zsh-autosuggestions zsh-completions

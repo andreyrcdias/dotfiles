@@ -2,6 +2,9 @@ bat
 btop
 git
 zsh
+zsh-syntax-highlighting
+zsh-autosuggestions
+zsh-completions
 neovim
 pyenv
 telnet
