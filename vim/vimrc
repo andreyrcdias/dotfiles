@@ -1,5 +1,5 @@
-set nocompatible
 syntax enable
+set nocompatible
 set encoding=utf8
 
 filetype plugin on
@@ -9,7 +9,7 @@ set nu
 set relativenumber
 
 set wildmenu
-set so=8
+set so=10
 set ai
 set si
 set wrap
@@ -24,8 +24,5 @@ set noswapfile
 let mapleader = " "
 map <leader>rv :e! ~/.vimrc<cr>
 map <leader>pv :Ex<cr>
-map <leader>tn :tabnew<cr>
-map <leader>tc :tabclose<cr>
-map <leader>ss :split<cr>
-map <leader>vs :vsplit<cr>
 
+highlight Comment ctermfg=green
