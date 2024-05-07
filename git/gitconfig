@@ -15,7 +15,7 @@
 	whoami = config user.email
 
 [core]
-	editor = vim
+	editor = nvim
 
 [branch]
 	sort = -committerdate
