@@ -17,3 +17,4 @@ feh
 reattach-to-user-namespace
 jq
 gdb
+openssh
