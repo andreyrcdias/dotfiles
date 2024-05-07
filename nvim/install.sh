@@ -1,3 +1,3 @@
 #!/bin/bash
 
-"$S" "$HEREP/init.vim" "$OUT/.config/nvim/init.vim"
+"$S" "$HEREP/init.lua" "$OUT/.config/nvim/init.lua"
