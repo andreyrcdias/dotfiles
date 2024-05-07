@@ -24,5 +24,8 @@ set noswapfile
 let mapleader = " "
 map <leader>rv :e! ~/.vimrc<cr>
 map <leader>pv :Ex<cr>
+" Insert empty line below
+nmap <silent> <leader><CR> o<ESC>
 
 highlight Comment ctermfg=green
+
