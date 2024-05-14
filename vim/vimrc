@@ -24,8 +24,22 @@ set noswapfile
 let mapleader = " "
 map <leader>rv :e! ~/.vimrc<cr>
 map <leader>pv :Ex<cr>
+map <leader>w :w!<cr>
+map <leader>q :q!<cr>
 " Insert empty line below
 nmap <silent> <leader><CR> o<ESC>
 
+nnoremap K :m .-2<cr>==
+inoremap J <esc>:m .+1<cr>==gi
+inoremap K <esc>:m .-2<cr>==gi
+vnoremap J :m '>+1<cr>gv=gv
+vnoremap K :m '<-2<cr>gv=gv
+
 highlight Comment ctermfg=green
+
+" netrw
+let g:netrw_banner=0
+let g:netrw_liststyle=3
+nnoremap <c-b> <esc>:Lex<cr>:vertical resize 30<cr>
+inoremap <c-b> <esc>:Lex<cr>:vertical resize 30<cr>
 
