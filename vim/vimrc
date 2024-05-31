@@ -5,7 +5,7 @@ set encoding=utf8
 filetype plugin on
 filetype indent on
 
-set nu
+set number
 set relativenumber
 
 set wildmenu
@@ -17,6 +17,9 @@ set wrap
 set smartcase
 set hlsearch
 
+set tabstop=4
+set shiftwidth=4
+set expandtab
 set noundofile
 set nobackup
 set noswapfile
