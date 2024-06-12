@@ -13,6 +13,7 @@ set so=10
 set ai
 set si
 set wrap
+set ruler
 
 set smartcase
 set hlsearch
