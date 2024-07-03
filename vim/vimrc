@@ -8,6 +8,7 @@ filetype indent on
 set number
 set relativenumber
 
+set mouse=a
 set wildmenu
 set so=10
 set ai
