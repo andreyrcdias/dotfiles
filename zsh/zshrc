@@ -30,3 +30,5 @@ alias cd..="cd ../../"
 alias cd...="cd ../../../"
 alias cat="bat"
 alias uuid="python -c 'from uuid import uuid4; print(str(uuid4()))'"
+alias kube="kubectl"
+
