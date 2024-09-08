@@ -12,8 +12,9 @@ plugins=(
     kubectx
     # vi-mode
     zsh-autosuggestions
-    zsh-completions
     zsh-syntax-highlighting
+    fast-syntax-highlighting
+    zsh-autocomplete
 )
 source $ZSH/oh-my-zsh.sh
 
