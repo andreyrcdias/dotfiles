@@ -1,3 +1,6 @@
+(setq custom-file "~/.emacs.custom.el")
+(load-file "~/.emacs.custom.el")
+
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 (scroll-bar-mode -1)
