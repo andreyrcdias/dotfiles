@@ -19,7 +19,7 @@ projects=(
   tmux
   vim
   zsh
-  kitty
+  ghostty
 )
 
 if [ $(uname -s) == "Darwin" ]; then

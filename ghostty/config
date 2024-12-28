@@ -1,0 +1,11 @@
+font-family = BerkeleyMono Nerd Font
+# font-family = Iosevka Nerd Font
+# font-family = SFMono Nerd Font
+# font-family = SF Mono Regular
+
+font-size = 16
+theme = gruber-darker
+cursor-style = block
+
+copy-on-select = clipboard
+
