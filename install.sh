@@ -15,7 +15,7 @@ cd "$HERE"
 projects=(
   bash
   git
-  nvim
+  # nvim
   tmux
   vim
   zsh
