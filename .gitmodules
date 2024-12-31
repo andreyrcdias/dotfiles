@@ -1,4 +1,0 @@
-[submodule "nvim"]
-	path = nvim
-	url = git@github.com:andreyrcdias/kickstart.nvim.git
-	branch = personal
