@@ -92,7 +92,12 @@ vim.g.maplocalleader = ' '
 
 -- Netrw
 vim.g.netrw_banner = 0
+-- Tree style
 vim.g.netrw_liststyle = 3
+-- Open in a new tab
+-- vim.g.netrw_browse_split = 4
+-- Show hidden files
+vim.g.netrw_hide = 0
 
 -- [[ Setting options ]]
 -- See `:help vim.opt`
@@ -175,6 +180,8 @@ vim.keymap.set('n', 'j', "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = tr
 vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv")
 vim.keymap.set('v', 'K', ":m '<-2<CR>gv=gv")
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
+vim.keymap.set('n', '<leader>w', ':w<CR>')
+vim.keymap.set('n', '<leader>q', ':q<CR>')
 
 -- Exit terminal mode in the builtin terminal with a shortcut that is a bit easier
 -- for people to discover. Otherwise, you normally need to press <C-\><C-n>, which
@@ -272,6 +279,14 @@ require('lazy').setup {
     config = true,
     -- use opts = {} for passing setup options
     -- this is equalent to setup({}) function
+  },
+
+  {
+    'MeanderingProgrammer/render-markdown.nvim',
+    opts = {},
+    config = function()
+      require('render-markdown').setup {}
+    end,
   },
 
   -- NOTE: Plugins can also be configured to run lua code when they are loaded.
