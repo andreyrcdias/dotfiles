@@ -3,7 +3,7 @@ font-family = BerkeleyMono Nerd Font
 # font-family = SFMono Nerd Font
 # font-family = SF Mono Regular
 
-font-size = 16
+font-size = 15
 theme = gruber-darker
 cursor-style = block
 
