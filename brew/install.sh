@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 if test ! "$(uname)" = "Darwin"; then
   exit 0
