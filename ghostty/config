@@ -2,8 +2,10 @@ font-family = BerkeleyMono Nerd Font
 # font-family = Iosevka Nerd Font
 # font-family = SFMono Nerd Font
 # font-family = SF Mono Regular
-
 font-size = 14
+window-height = 70
+window-width = 150
+
 theme = gruber-darker
 cursor-style = block
 
