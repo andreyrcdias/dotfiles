@@ -16,6 +16,7 @@ set si
 set wrap
 set ruler
 
+set backspace=indent,eol,start
 set smartcase
 set hlsearch
 
