@@ -5,6 +5,8 @@ set encoding=utf8
 filetype plugin on
 filetype indent on
 
+colorscheme gruber-darker
+
 set number
 set relativenumber
 
