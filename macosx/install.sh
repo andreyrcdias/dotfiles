@@ -28,5 +28,5 @@ defaults write com.vscodium ApplePressAndHoldEnabled -bool false
 # Remap Caps Lock to the Escape key
 # Caps Lock 0x700000039
 # Escape    0x700000029
-hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":0x700000039,"HIDKeyboardModifierMappingDst":0x700000029}]}'
+hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":0x700000039,"HIDKeyboardModifierMappingDst":0x700000029}]}' >> /dev/null
 
