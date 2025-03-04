@@ -1,6 +1,6 @@
 # dotfiles
 
-![setup](./images/setup.jpg)
+![setup](./images/setup.png)
 
 ```bash
 ./install.sh $HOME
