@@ -1,13 +1,11 @@
-font-family = BerkeleyMono Nerd Font
-# font-family = Iosevka Nerd Font
-# font-family = SFMono Nerd Font
-# font-family = SF Mono Regular
-font-size = 14
+# font-family = Iosevka Term
+# font-family = Comic Mono
+font-size = 18
 window-height = 70
 window-width = 150
-
 theme = gruber-darker
-cursor-style = block
-
+background-opacity = 0.9
+shell-integration-features = no-cursor
+# cursor-style = underline
+# cursor-style-blink = false
 copy-on-select = clipboard
-
