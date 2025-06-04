@@ -4,9 +4,14 @@ defaults write com.apple.finder ShowPathbar -bool true
 defaults write com.apple.dock autohide -bool true
 defaults write com.apple.dock magnification -float 1.0
 defaults write com.apple.dock mineffect -string "genie"
+# do not show recent apps in dock
+# defaults write com.apple.dock show-recents -int 0
 
 defaults write com.apple.controlcenter "NSStatusItem Visible Sound" -bool true
 defaults write com.apple.controlcenter "NSStatusItem Visible Battery" -bool true
+
+# show filename extensions in finder
+# defaults write NSGlobalDomain AppleShowAllExtensions -int 1
 
 defaults write -g KeyRepeat -int 1
 defaults write -g InitialKeyRepeat -int 10
