@@ -1,0 +1,9 @@
+{
+  "vim.leader": "<Space>",
+  "vim.smartRelativeNumber": true,
+  "vim.vimrc.enable": true,
+  "vim.vimrc.path": "$HOME/.vimrc",
+  "vim.handleKeys": {
+    "<C-p>": false
+  }
+}
