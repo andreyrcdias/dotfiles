@@ -1,7 +1,7 @@
 # font-family = Iosevka Term
 # font-family = Comic Mono
 font-family = IBM Plex Mono
-font-size = 18
+font-size = 16
 window-height = 70
 window-width = 150
 theme = gruber-darker
