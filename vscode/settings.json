@@ -1,8 +1,11 @@
 {
-  "vim.leader": "<Space>",
-  "vim.smartRelativeNumber": true,
+  "editor.mouseWheelZoom": true,
+  "terminal.integrated.mouseWheelZoom": true,
+  "terminal.integrated.defaultLocation": "editor",
   "vim.vimrc.enable": true,
   "vim.vimrc.path": "$HOME/.vimrc",
+  "vim.leader": "<Space>",
+  "vim.smartRelativeNumber": true,
   "vim.handleKeys": {
     "<C-p>": false
   }
