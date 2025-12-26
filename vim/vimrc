@@ -1,30 +1,45 @@
+" global configs
 syntax enable
 set nocompatible
+colorscheme gruber-darker
+
+" set utf8 as standard encoding and en_US as the standard language
 set encoding=utf8
 
+" enable filetype plugins
 filetype plugin on
 filetype indent on
 
-colorscheme gruber-darker
 
+" show numbers and the relative numbers
 set number
 set relativenumber
 
 set mouse=a
+
+" display all matching files & enable tab autocomplete
 set wildmenu
+
 set so=10
+
+" indenting things
 set ai
 set si
 set wrap
+
+" always show current position
 set ruler
 
 set backspace=indent,eol,start
 set smartcase
 set hlsearch
 
+" spaces for indentation
+set expandtab
 set tabstop=4
 set shiftwidth=4
-set expandtab
+
+" turn backup off
 set noundofile
 set nobackup
 set noswapfile
@@ -34,7 +49,7 @@ map <leader>rv :e! ~/.vimrc<cr>
 map <leader>pv :Ex<cr>
 map <leader>w :w!<cr>
 map <leader>q :q!<cr>
-" Insert empty line below
+" insert empty line below
 nmap <silent> <leader><CR> o<ESC>
 
 nnoremap K :m .-2<cr>==
